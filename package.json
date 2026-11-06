@@ -1,0 +1,44 @@
+{
+  "name": "monsterhouse-webgpu",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MonsterHouse WebGPU — Boo! Now Get Off My Lawn! End-to-end browser interactive haunted house powered by WebGPU, NVIDIA Nemotron, Google Gemma 4, and Liquid AI LFM3-Omni.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "idb": "^8.0.4",
+    "kokoro-js": "^1.2.1",
+    "lucide-react": "^1.66.0",
+    "onnxruntime-web": "^1.31.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "three": "^0.187.0",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "jsdom": "^26.1.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}

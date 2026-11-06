@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+.env
+.env.*
+.DS_Store
+coverage
+public/models/*.onnx
+public/models/*.bin
