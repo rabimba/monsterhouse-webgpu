@@ -15,11 +15,17 @@ That question turned into **[MonsterHouse WebGPU](https://github.com/rabimba/mon
 
 ---
 
-## Watch the Full Narrated Live Demo (3m 42s)
+## Watch the Full Narrated Live Demo (3m 45s)
 
-Before diving into the WebGPU worker architecture and shader math, you can watch the full **3-minute 42-second narrated live walkthrough** covering every single tab, model profile, costume roast, shader uniform, and dual-window garage projector calibration:
+Before diving into the WebGPU worker architecture and shader math, watch the full **3-minute 45-second narrated live walkthrough** (turn audio on!) covering every single tab, model profile, costume roast, shader uniform, and dual-window garage projector calibration:
 
-- 🎬 **[Watch / Download Narrated Live Demo (`monsterhouse-live-demo.mp4`)](./media/monsterhouse-live-demo.mp4)** *(1440×900 · 8 chapters · end-to-end live capture)*
+<video controls playsinline preload="metadata" poster="https://cdn.jsdelivr.net/gh/rabimba/monsterhouse-webgpu@main/blog/media/monsterhouse-demo-poster.jpg" width="100%">
+  <source src="https://cdn.jsdelivr.net/gh/rabimba/monsterhouse-webgpu@main/blog/media/monsterhouse-live-demo.mp4" type="video/mp4" />
+  <a href="./media/monsterhouse-live-demo.mp4">Watch / Download Narrated Live Demo (monsterhouse-live-demo.mp4)</a>
+</video>
+
+> **Video Chapters:** `0:00` 3D Stage & TSL Hellfire · `0:33` Trick-or-Treat & *"Please"* Breakthrough · `1:01` Soundboard, Inline Tags & Puppet Mic · `1:29` Profiles C/B/A & Demon DSP · `2:06` YOLOv10s + ByteTrack Costume Roast · `2:33` Prompts & Shader Tuner · `2:56` Zero-Shot Voice & `?projector=1` · `3:24` Cache, Metrics & Architecture
+> *(Direct file: [`./media/monsterhouse-live-demo.mp4`](./media/monsterhouse-live-demo.mp4))*
 
 ![3D WebGPU Haunted House Stage, TSL Volumetric Hellfire, Camera Modes, and Candy Barrage](./media/01-stage-hellfire-and-candy.gif)
 *Figure 1: The Three.js WebGPU Haunted House stage running at 60 FPS—featuring 24 splintered pirate-ship planks deformed by 44 ARKit targets, 3-layer TSL volumetric hellfire, Close-Up Maw and Projector Mask camera presets, and physics-driven full-size candy launches onto a rain-slick driveway.*
