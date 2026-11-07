@@ -7,6 +7,7 @@ const crossOriginHeaders = {
 };
 
 export default defineConfig({
+  base: process.env.GITHUB_PAGES === 'true' ? '/monsterhouse-webgpu/' : '/',
   plugins: [react()],
   server: {
     port: 5173,

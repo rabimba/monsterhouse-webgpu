@@ -4,10 +4,7 @@ A 100% client-side, end-to-end **WebGPU** implementation of NVIDIA's [MonsterHou
 
 Zero Python servers, zero cloud API keys, and zero external runtimes required—every model, DSP chain, tracker, cache, and 3D shader runs directly in your browser.
 
-- 📝 **Technical Deep-Dive Blog Post & Full Play Guide:** [`blog/BLOGPOST.md`](./blog/BLOGPOST.md) *(plus ready-to-paste Blogger HTML in [`blog/BLOGGER_PASTE.html`](./blog/BLOGGER_PASTE.html))*
-- 🎬 **Narrated Live Demo Video (3m 42s, 8 Chapters):** [`blog/media/monsterhouse-live-demo.mp4`](./blog/media/monsterhouse-live-demo.mp4)
-
-![MonsterHouse WebGPU 3D Stage & TSL Hellfire](./blog/media/01-stage-hellfire-and-candy.gif)
+- **Live Demo (GitHub Pages):** [https://rabimba.github.io/monsterhouse-webgpu/](https://rabimba.github.io/monsterhouse-webgpu/)
 
 ---
 
